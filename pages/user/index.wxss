@@ -1,0 +1,116 @@
+page {
+  background-color: #edece8;
+}
+.user-info-wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user-info-wrap .user-img-wrap {
+  position: relative;
+}
+.user-info-wrap .user-img-wrap .user-bg {
+  height: 50vh;
+  filter: blur(10rpx);
+}
+.user-info-wrap .user-img-wrap .user-info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user-info-wrap .user-img-wrap .user-info .user-icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user-info-wrap .user-img-wrap .user-info .user-name {
+  color: white;
+  margin-top: 40rpx;
+}
+.user-info-wrap .user-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user-content {
+  position: relative;
+}
+.user-content .user-main {
+  padding-bottom: 100rpx;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  color: #666;
+}
+.user-content .history-wrap {
+  background-color: #fff;
+  display: flex;
+}
+.user-content .history-wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.user-content .history-wrap navigator .his-num {
+  color: var(--themeColor);
+}
+.user-content .orders-wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user-content .orders-wrap .orders-title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user-content .orders-wrap .orders-content {
+  display: flex;
+}
+.user-content .orders-wrap .orders-content navigator {
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.user-content .orders-wrap .orders-content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.user-content .address-wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.user-content .app-info-wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+.user-content .app-info-wrap .app-info-item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user-content .app-info-wrap .app-info-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.user-content .recommend-wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.icon-fukuan,
+.icon-zhifu-01 {
+  scale: 1.2;
+}
+.icon-kuaidi {
+  scale: 1.5;
+}

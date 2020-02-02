@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SearchIn": "../../components/searchIn/SearchIn"
+  },
+  "navigationBarTitleText": "买就完事了嗷"
+}

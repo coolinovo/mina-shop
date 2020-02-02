@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SearchIn": "../../components/searchIn/SearchIn"
+  },
+  "navigationBarTitleText": "商品分类"
+}
